@@ -6,6 +6,7 @@ tags:
 categories:
  -  Web
 ---
+
 假设已经创建了两个不同的github账号在本地，那么在提交代码时，需要指定origin url，否则会默认使用第一个账号进行提交，从而导致报错 `Please make sure you have the correct access rights
 and the repository exists.` 。
 
