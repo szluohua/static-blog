@@ -75,7 +75,12 @@ module.exports = {
     'sitemap': {
       hostname: 'https://blog.jscode.top'
     },
-    'vuepress-plugin-baidu-autopush':{}
+    'vuepress-plugin-baidu-autopush':{},
+    '@vuepress/nprogress': {},
+    '@vuepress/active-header-links': {
+      sidebarLinkSelector: '.sidebar-link',
+      headerAnchorSelector: '.header-anchor'
+    }
 
   }
 }  
