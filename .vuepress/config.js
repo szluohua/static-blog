@@ -4,7 +4,9 @@ module.exports = {
   dest: 'dist',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+    ['script', { type: 'text/javascript', src: '/assets/js/push.js' }],
+    ['meta', { name: 'keywords', content: 'vue,jscode,nodejs,javascript,blog,vuepress-blog' }]
   ],
   theme: 'reco',
   themeConfig: {
